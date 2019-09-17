@@ -1,0 +1,76 @@
+<html>
+    <head><title>From</title></head>
+    <body>
+        <h2 align='center'><font color='#9966ff'>Free Registration</font></h2>
+        <form action='proses.php' method='post' name='form'>
+            <table width='68%' border='0' align='center' cellpadding='0'>
+                <tr>
+                    <td width='15%'>Nama</td>
+                    <td width='2%'>:</td>
+                    <td width='83%'><input name='txtNama' type='text' id='txtNama'></td>
+                </tr>
+                <tr>
+                    <td>Tgl Lahir</td>
+                    <td>:</td>
+                    <td><input name='txttgl' type='text' id='txttgl' size='4' maxlenghth='2'>
+                        <input name='txtbulan' type='text' id='txtbulan' size='4' maxlenghth='2'>
+                        <input name='txttahun' type='text' id='txttahun' size='8' maxlenghth='4'>
+                    </td>
+                </tr>
+                <tr>
+                    <td>alamat</td>
+                    <td>&nbsp;</td>
+                    <td><textarea name='txtalamat' cols='40' rows='2' id='txtalamat'></textarea></td>
+                </tr>
+                <tr>
+                    <td>Kota</td>
+                    <td>:</td>
+                    <td><input name='txtkota' type='text' id='txtkota'></td>
+                </tr>
+                <tr>
+                    <td>Pekerjaan</td>
+                    <td>:</td>
+                    <td><select name='cbojob' id='cbojob'>
+                        <option>Tani</option>
+                        <option>Nelayan</option>
+                        <option>Karyawan</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td>
+                        <input name='radJk' type='radio' value='1' checked>Laki Laki
+                        <input type='radio' name='radJk' value='2'>Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hobby</td>
+                    <td>:</td>
+                    <td><input name='cekReading' type='checkbox' id='cekReading' value='1'>Reading</td>
+                </tr>
+                <tr>
+                    <td>&nbsp</td>
+                    <td>&nbsp</td>
+                    <td><input name='cekSport' type='checkbox' id='cekSport' value='2'>Sport</td>
+                </tr>
+                <tr>
+                    <td>&nbsp</td>
+                    <td>&nbsp</td>
+                    <td><input name='cekSing' type='checkbox' id='cekSing' value='3'>Singing</td>
+                </tr>
+                <tr>
+                    <td>&nbsp</td>
+                    <td>&nbsp</td>
+                    <td><input name='cekTravel' type='checkbox' value='4'>Travelling</td>
+                </tr>
+                <tr>
+                        <td>&nbsp</td>
+                        <td>&nbsp</td>
+                        <td><input name='btnKirim' type='submit' value='kirim' id='btnKirim'></td>
+                        <td><input name='btnCancel' type='reset' value='cancel' id='btnCancel'></td>
+                </tr>
+            </table>
+       </form>
+    </body>
+</html>
